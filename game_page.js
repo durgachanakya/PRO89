@@ -14,8 +14,8 @@ document.getElementById("player_question").innerHTML = "Question turn - " + play
 document.getElementById("player_answer").innerHTML = "Answer turn - " + player2_name;
 
 function send(){
-    number1 = document.getElementById("number1").value;
-    number2 = document.getElementById("number2").value;
+    number1 = document.getElementById("Number1").value;
+    number2 = document.getElementById("Number2").value;
     actual_answer = parseInt(number1) * parseInt(number2);
     
     question_number = "<h4>" + number1 + "X" +  number2 + "</h4>";
